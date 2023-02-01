@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fab {
+    font-size: 1.3em;
+}
+
+.color-bg {
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9aac9b, #283c86);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #769977, #205d70);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color_h4 {
+    color: black;
+}
+
+.face {
+    color: rgb(32, 146, 199) !important;
+    background-color: aliceblue;
+}
+
+.twitter {
+    color: rgb(92, 150, 205);
+    background-color: antiquewhite;
+}
+
+.instagram {
+    color: rgb(228, 54, 141);
+    background-color: rgb(87, 84, 80);
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+.face:hover {
+    transform: scale(1.2);
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.links_footer {
+    font-size: 18px;
+    list-style: none;
+}
+
+.text_links {
+    color: rgb(153, 243, 243);
+}
+
+.store:hover {
+    transform: scale(1.1);
+}
+
+.texto_publicidad {
+    text-align: start;
+    color: rgb(20, 20, 20);
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.img_publicidad :hover {
+    transform: scale(1.1);
+}
+
+.lista {
+    font-size: 18px;
+}
+
+.lista:hover {
+    color: rgb(231, 96, 17);
+}
+
+.foter {
+    width: 100%;
+    height: 425px;
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, #b4a9b9 0%, #9fb49b 100%);
+}
+
+.cajon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_rolling {
+    margin-top: 4.5em;
+}
+
+.nav-link {
+    font-family: "Michroma", sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 1em;
+    border-radius: 10px;
+    padding-left: 4em;
+}
+
+.nav-item {
+    margin-bottom: 1em;
+}
+
+.subt {
+    font-family: "Michroma", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+h2 {
+    font-family: "Michroma", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: all 400ms ease;
+}
+
+.letra_iniciar_sesion {
+    font-size: 12px;
+    color: rgb(252, 252, 252);
+    font-family: "Michroma", sans-serif;
+}
+
+.caja_iniciar {
+    background-color: rgb(24, 136, 233);
+    justify-content: center;
+    width: 8em;
+    height: 3em;
+    margin-top: 2.3em;
+    margin-left: 1em;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 1486px) {
+    .caja_iniciar {
+        width: 6rem;
+        height: 6em;
+        font-size: 8px;
+        margin-top: 13em;
+    }
+}
+
+@media screen and (max-width: 1266px) {
+    .caja_iniciar {
+        width: 5rem;
+        height: 6em;
+        font-size: 8px;
+        margin-top: 16em;
+        left: 65%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .caja_iniciar {
+        width: 5rem;
+        height: 6em;
+        font-size: 8px;
+        margin-top: 12em;
+        left: 65%;
+    }
+}
+
+.caja_iniciar:hover {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(29, 66, 63);
+    transition: all 300ms ease;
+    transform: translateY(-4%);
+}
+
+.card:hover {
+    box-shadow: 6px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    transition: all 400ms ease;
+    transform: translateY(-2%);
+}
+
+.text-secondary:hover {
+    color: black;
+}
+
+.color-nav {
+    background-image: linear-gradient( 358.7deg, rgb(26, 30, 31) 1.7%, rgb(196, 72, 50) 51.1%, rgb(171, 66, 212) 95.5%);
+}
+
+.nav-link:hover {
+    font-family: "Michroma", sans-serif;
+    background-color: rgba(255, 217, 0, 0.349);
+    transition: all 300ms ease;
+    transform: translateY(-2%);
+}
+
+.iconos_face {
+    margin-left: 1em;
+    border-radius: 2%;
+}
+
+.iconos_google {
+    margin-left: 9em;
+    border-radius: 10%;
+}
+
+.iconos_face:hover {
+    box-shadow: 6px 8px 8px 8px #1fb7e6bf;
+    transition: all 400ms ease;
+    transform: translateY(2%);
+}
+
+.iconos_google:hover {
+    box-shadow: 6px 8px 8px 8px #1fb7e6bf;
+    transition: all 400ms ease;
+    transform: translateY(-2%);
+}
+
+.monetizo {
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    border-radius: 18%;
+    background: rgb(129, 233, 126);
+    background: linear-gradient(45deg, rgba(129, 233, 126, 0.8239495627352503) 15%, rgba(94, 159, 147, 1) 27%, rgba(15, 97, 121, 0.6222688904663427) 50%, rgba(201, 148, 49, 0.5900560053122812) 87%);
+}
+
+@media screen and (max-width: 583px) {
+    .Icono_monetizo {
+        margin: 10px;
+    }
+}
+
+.Icono_monetizo:hover {
+    box-shadow: 4px 4px 4px 4px #fd4793bf;
+    transition: all 400ms ease;
+    transform: scale(1.1);
+}
+
+.font_quienes {
+    font-size: 18px;
+}
+
+.titulo {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.h5 {
+    font-family: 'Michroma', sans-serif;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.titulo {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.btn_compartir {
+    border-radius: 15px;
+    border: solid 5px rgb(63, 65, 83);
+}
+
+.btn_compartir:hover {
+    box-shadow: 6px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    transition: all 400ms ease;
+    transform: translateY(-8%);
+    border: solid 5px rgb(150, 225, 238);
+}
+
+.error404 {
+    padding-top: 5em;
+}
+
+.card {
+    width: 19em;
+    height: 30em;
+}
