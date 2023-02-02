@@ -213,3 +213,10 @@ h2 {
         width: 17em;
     }
 }
+
+@media screen and (max-width: 391px) {
+    .card {
+        margin-left: 1em;
+        width: 15em;
+    }
+}
