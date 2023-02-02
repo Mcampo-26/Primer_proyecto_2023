@@ -206,3 +206,10 @@ h2 {
     transition: all 400ms ease;
     margin: 3px;
 }
+
+@media screen and (max-width: 636px) {
+    .card {
+        margin-left: 5em;
+        width: 20em;
+    }
+}
