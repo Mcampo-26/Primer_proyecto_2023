@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(to top, #b4a9b9 0%, #9fb49b 100%);
+    background-image: linear-gradient(to top, #ddd5e0 0%, #9fb49b 100%);
 }
 
 .cajon {
@@ -58,7 +58,7 @@ h2 {
 }
 
 .caja_iniciar {
-    background-color: rgb(24, 136, 233);
+    background-color: rgb(139, 147, 155);
     justify-content: center;
     width: 8em;
     height: 3em;
