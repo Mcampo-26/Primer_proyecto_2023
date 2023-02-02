@@ -204,7 +204,7 @@ h2 {
     height: 30em;
     box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
     transition: all 400ms ease;
-    margin: 3px;
+    margin: 0.3em;
 }
 
 @media screen and (max-width: 636px) {
